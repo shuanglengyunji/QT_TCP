@@ -123,8 +123,8 @@ void MainWindow::connectUpdata()
     if(!flag)
     {
         QMessageBox msgBox;
-        msgBox.setText("TCP connect successful");
-        msgBox.exec();                          //窗口关闭前阻塞程序运行
+//        msgBox.setText("TCP connect successful");
+//        msgBox.exec();                          //窗口关闭前阻塞程序运行
         ui->connnectButton->setEnabled(false);  //连接
         ui->sendButton->setEnabled(true);       //发送按钮
         ui->disconnectButton->setEnabled(true); //端口连接按钮
