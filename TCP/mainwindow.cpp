@@ -122,7 +122,7 @@ void MainWindow::connectUpdata()
 {
     if(!flag)
     {
-        QMessageBox msgBox;
+//        QMessageBox msgBox;
 //        msgBox.setText("TCP connect successful");
 //        msgBox.exec();                          //窗口关闭前阻塞程序运行
         ui->connnectButton->setEnabled(false);  //连接
@@ -134,7 +134,7 @@ void MainWindow::connectUpdata()
     flag=true;
 }
 
-//端口连接函数
+//断开连接函数
 void MainWindow::disconnectUpdata()
 {
     ui->connnectButton->setEnabled(true);

@@ -32,7 +32,7 @@ private:
    QTcpSocket *tcpSocket;//直接建立TCP套接字类
    QString tcpIp;//存储IP地址
    QString tcpPort;//存储端口地址
-   bool flag;
+   bool flag;      //连接成功标志
    Ui::MainWindow *ui;
 
 };
